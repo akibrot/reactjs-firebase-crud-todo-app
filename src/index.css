@@ -1,13 +1,84 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  padding: 0;
+  background-image: linear-gradient(
+    90deg,
+    rgb(63, 163, 194),
+    rgba(168, 57, 57, 0.733)
+  );
+}
+.app {
+  margin: 0 auto;
+  width: 32rem;
+  background-color: white;
+  border-radius: 12px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+h1{
+  color: rgb(70, 69, 69);
+  font-size: 25px;
+}
+.create{
+  padding: 10px;
+  width: 90%;
+  padding-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+input{
+  height: 40px;
+  outline: none;
+  width: 75%;
+}
+button{
+  width: 40px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: purple;
+  border-color: purple;
+  margin-left: 5px;
+  color: white;
+}
+.box{
+  background-color: rgb(219, 211, 211);
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.lists{
+  padding: 10px;
+  width: 77%;
+}
+.ch
+{
+  width: 19px;
+  margin-left: 5px;
+}
+.x{
+ 
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: transparent;
+  color: red;
+  border: none;
+  font-weight: bold;
+  font-size: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+
 }
